@@ -1,6 +1,6 @@
 # UB-Video-and-Image-Protocol
 
-This repository contains scripts for processing video annotations for the characterization and mapping of marine benthic communities, used internally at the Departement of Ecology of the University of Barcelona. The scripts aim to georeference video annotations, clean up video transect paths, and determine the most appropriate Sampling Unit (SU) size for ecological analysis, based on species accumulation curves.
+This repository contains scripts for processing video annotations for the characterization and mapping of marine benthic communities, used internally at the Departament of Ecology of the University of Barcelona. The scripts aim to georeference video annotations, clean up video transect paths, and determine the most appropriate Sampling Unit (SU) size for ecological analysis, based on species accumulation curves.
 
 ## Files Description
 
