@@ -8,8 +8,6 @@ This repository contains scripts for processing video annotations for the charac
 - **02_Create-VideoTransect.R** - R script to process spatial data to create a final "clean" video transect representing only the areas of interest that were valid during the video analysis stage. Discarded footage is removed to produce a continuous line representing the true video transect path and a polygon with the annotated field of view.
 - **03_Determine-SU-size-Create-Species-Subs-matrix.R** - R script to calculate species accumulation curves to help determine the most appropriate Sampling Unit (SU) size for ecological analysis. It also generates a species abundance matrix and calculates substrate type proportions for each SU.
 
----
-
 ## Requirements
 
 To run these scripts, the following software and packages are needed:
@@ -19,8 +17,5 @@ To run these scripts, the following software and packages are needed:
     - Required R packages:
         - `sf`, `raster`, `rgdal`, `dplyr`, `ggplot2`, `BiodiversityR`, `fossil`, `vegan`
 
----
 
-## License
-
-This repository is licensed under the [MIT License](https://www.notion.so/LICENSE). Feel free to modify and use the code for your research or projects.
+Feel free to modify and use the code for your research or projects.
