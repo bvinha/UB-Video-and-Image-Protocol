@@ -34,15 +34,14 @@ interpolated.to_csv("dive8_interpols.csv", sep=';', index=False)
 #The `parse_dates` and `date_parser` parameters in `pd.read_csv` are used to ensure the 'time' column is correctly parsed as datetime objects.
 #The `np.interp` function is used for interpolation. It requires numeric types for the 'x' and 'x-points' parameters, so we convert the datetime to numeric and then back.
 #The final merge operation with `frames2` is commented out because `frames2` is not defined in the provided code. Ensure `frames2` is a DataFrame with a 'time' column in the correct format before merging.
-#
-# The provided code is alreadi quite efficient to the task it performs. However here are a few suggestions to make it more concise and readible 
+
 # The provided Python code is already quite efficient for the task it performs. However, there are a few adjustments and enhancements that can make the code more concise and potentially more readable:
 
 # 1. Use a single function for datetime conversion: Instead of parsing the "time" column during csv reading, and then converting it again, you can handle datetime conversion in one step after reading.
-#
+
 # 2. Vectorize the interpolation process: the current loop iterates over each column to interpolate. While this is already using NumPy's efficient np.interp funcion, you can encapsulate the interpolation logic in a function to make the code more modular.
 
-# 3. Error handling for file reading: Adding basic error handling for reading csv files can make your code more robust.
+# 3. Error handling for file reading: Adding basic error handling for reading csv files can make code more robust.
 
 # Here is a revised version incorporating these suggestions:
 
